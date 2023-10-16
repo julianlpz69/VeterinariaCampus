@@ -28,6 +28,18 @@
 
 ![Captura de pantalla 2023-10-15 201022](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/26ddb70b-87cb-4f6b-aefd-cc6b6c54afc0)
 
+<br>
+<br>
+<br>
+
+
+- Listar los propietarios y sus mascotas.
+
+![Captura de pantalla 2023-10-15 215459](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/44c631b2-35c4-404c-a99f-e5116df20576)
+
+
+![Captura de pantalla 2023-10-15 215441](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/b3518bcd-4095-4ce0-aa3f-5f90873570a2)
+
 
 
 
