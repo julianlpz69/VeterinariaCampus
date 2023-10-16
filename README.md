@@ -53,6 +53,16 @@
 
 ![Captura de pantalla 2023-10-15 220340](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/0514f872-55d3-4c03-9a94-b4c0f0e9cd3a)
 
+<br>
+<br>
+<br>
 
 
+- Listar las mascotas que fueron atendidas por motivo de vacunacion en el primer trimestre del 2023
+
+
+![Captura de pantalla 2023-10-15 232649](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/85d89796-6ca5-425c-8640-9c5837a3f9c1)
+
+
+![Captura de pantalla 2023-10-15 232628](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/6a5dd456-c61a-48e8-8728-29c27cdc827d)
 
