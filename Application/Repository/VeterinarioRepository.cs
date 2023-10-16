@@ -18,13 +18,13 @@ namespace Application.Repository
             _context = context;
         }
 
-        public async Task<IEnumerable<Veterinario>> ObtenerVeterinariosCirujanoVascular()
-    {
-        var veterinariosCirujanoVascular =await _context.Veterinarios
-            .Where(v => v.EspecialidadVeterinario == "Cirujano vascular")
-            .ToListAsync();
+        public async Task<IEnumerable<Veterinario>> VeterinariosCirujano()
+        {
+            var veterinariosCirujanoVascular =await _context.Veterinarios
+                .Where(v => v.EspecialidadVeterinario == "Cirujano vascular")
+                .ToListAsync();
 
-        return veterinariosCirujanoVascular;
-    }
+            return veterinariosCirujanoVascular;
+        }
     }
 }

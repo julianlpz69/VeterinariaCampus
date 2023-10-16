@@ -92,5 +92,75 @@ namespace API.Controllers
             unitofwork.Mascotas.Remove(Mascota);
             await unitofwork.SaveAsync();
             return NoContent();    }
+
+
+
+
+
+
+        [HttpGet("Felino")]
+        [MapToApiVersion("1.1")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult<IEnumerable<MascotaEspecieDto>>> GetFelino()
+        {
+            var Mascota = await unitofwork.Mascotas.MascotaFelino();
+            return mapper.Map<List<MascotaEspecieDto>>(Mascota);
+            
+        }
+
+
+        [HttpGet("Vacuna")]
+        [MapToApiVersion("1.1")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult<IEnumerable<MascotaVacunaDto>>> GetVacuna()
+        {
+            var Mascota = await unitofwork.Mascotas.MascotasVacunacion();
+            return mapper.Map<List<MascotaVacunaDto>>(Mascota);
+            
+        }
+
+
+
+        [HttpGet("Veterinario")]
+        [MapToApiVersion("1.1")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult<IEnumerable<MascotaVeterinarioDto>>> GetVeterinario(string nombre)
+        {
+            var Mascota = await unitofwork.Mascotas.MascotasAtentidas(nombre);
+            return mapper.Map<List<MascotaVeterinarioDto>>(Mascota);
+            
+        }
+
+
+
+
+        [HttpGet("Retriever")]
+        [MapToApiVersion("1.1")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult<IEnumerable<MascotaRazaDto>>> GetRetriever()
+        {
+            var Mascota = await unitofwork.Mascotas.MascotasRetriever();
+            return mapper.Map<List<MascotaRazaDto>>(Mascota);
+            
+        }
+
+
+
+        [HttpGet("Razas")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult<IEnumerable<Object>>> GetRazas()
+        {
+            var Mascota = await unitofwork.Razas.MascotasXRaza();
+            return Ok(Mascota);
+            
+        }
+
+
+       
     }
 }

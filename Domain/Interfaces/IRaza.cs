@@ -8,6 +8,6 @@ namespace Domain.Interfaces
 {
     public interface IRaza : IGenericRepository<Raza>
     {
-        
+        Task<IEnumerable<object>> MascotasXRaza();
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "doYTKc9veSQpWLiDUumkpsEbn17l3V4c+at4T71G6SZoTyEAY/UDUzAG2r5lPMJ3mUury9NsWqTIo9prZeWg9Q==",
+  "dgSpecHash": "I0s94wA1T+7uMKHaJ4RTCTSva8+VCPe4+yZdaA2/dJdjb0JsWzUaVnouHU11lSft7SVztehwGPERl1qAc0jyCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\julia\\OneDrive\\Escritorio\\VeterinariaCampus\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\julia\\OneDrive\\Escritorio\\VeterinariaCampus\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\julia\\.nuget\\packages\\aspnetcoreratelimit\\5.0.0\\aspnetcoreratelimit.5.0.0.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",

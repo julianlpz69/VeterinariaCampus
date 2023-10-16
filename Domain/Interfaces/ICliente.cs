@@ -8,6 +8,6 @@ namespace Domain.Interfaces
 {
     public interface ICliente : IGenericRepository<Cliente>
     {
-        
+        Task<IEnumerable<Cliente>> ClientePet();
     }
 }

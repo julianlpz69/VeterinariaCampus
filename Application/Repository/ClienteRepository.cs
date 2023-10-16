@@ -18,6 +18,14 @@ namespace Application.Repository
             _context = context;
         }
 
-      
+
+        public async Task<IEnumerable<Cliente>> ClientePet()
+        {
+            var Clientes =await _context.Clientes
+                .Include(u => u.Mascotas)
+                .ToListAsync();
+
+            return Clientes;
+        }
     }
 }

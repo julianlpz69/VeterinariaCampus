@@ -92,5 +92,20 @@ namespace API.Controllers
             unitofwork.Clientes.Remove(Cliente);
             await unitofwork.SaveAsync();
             return NoContent();    }
+
+
+        [HttpGet("Pet")]
+        [MapToApiVersion("1.1")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult<IEnumerable<ClientePetDto>>> GetPet([FromQuery]Params ClienteParams)
+        {
+        var Cliente = await unitofwork.Clientes.ClientePet();
+        return mapper.Map<List<ClientePetDto>>(Cliente);
     }
+
+    }
+
+
+    
 }

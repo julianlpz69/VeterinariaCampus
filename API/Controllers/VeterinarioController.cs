@@ -99,9 +99,9 @@ namespace API.Controllers
         [MapToApiVersion("1.1")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult<IEnumerable<VeterinarioDto>>> Get2([FromQuery]Params VeterinarioParams)
+        public async Task<ActionResult<IEnumerable<VeterinarioDto>>> GetEspecialidad()
         {
-            var Veterinario = await unitofwork.Veterinarios.ObtenerVeterinariosCirujanoVascular();
+            var Veterinario = await unitofwork.Veterinarios.VeterinariosCirujano();
             return mapper.Map<List<VeterinarioDto>>(Veterinario);
             
         }

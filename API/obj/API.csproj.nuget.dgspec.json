@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julia\\OneDrive\\Escritorio\\VeterinariaCampus\\api\\API.csproj": {}
+    "C:\\Users\\julia\\OneDrive\\Escritorio\\VeterinariaCampus\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julia\\OneDrive\\Escritorio\\VeterinariaCampus\\api\\API.csproj": {
+    "C:\\Users\\julia\\OneDrive\\Escritorio\\VeterinariaCampus\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\OneDrive\\Escritorio\\VeterinariaCampus\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\julia\\OneDrive\\Escritorio\\VeterinariaCampus\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\VeterinariaCampus\\api\\API.csproj",
+        "projectPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\VeterinariaCampus\\API\\API.csproj",
         "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\VeterinariaCampus\\api\\obj\\",
+        "outputPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\VeterinariaCampus\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
