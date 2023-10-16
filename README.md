@@ -1,6 +1,6 @@
 ## Consultas
 
-- Crear un consulta que permita visualizar los veterinarios cuya especialidad sea Cirujano vascular.
+ ### - Crear un consulta que permita visualizar los veterinarios cuya especialidad sea Cirujano vascular.
 
 ![Captura de pantalla 2023-10-15 191751](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/7c39a3b1-4b4d-4b80-8c85-0edf3cc3f909)
 
@@ -10,7 +10,7 @@
 <br>
 
 
-- Listar los medicamentos que pertenezcan a el laboratorio Genfar
+ ### - Listar los medicamentos que pertenezcan a el laboratorio Genfar
 
 
 
@@ -22,7 +22,7 @@
 <br>
 
 
-- Mostrar las mascotas que se encuentren registradas cuya especie sea felina.
+ ###  Mostrar las mascotas que se encuentren registradas cuya especie sea felina.
 
 ![Captura de pantalla 2023-10-15 201040](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/5286a7c6-c07f-40f8-852e-4bb0cc5b742c)
 
@@ -33,7 +33,7 @@
 <br>
 
 
-- Listar los propietarios y sus mascotas.
+ ### - Listar los propietarios y sus mascotas.
 
 ![Captura de pantalla 2023-10-15 215459](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/44c631b2-35c4-404c-a99f-e5116df20576)
 
@@ -45,7 +45,7 @@
 <br>
 
 
-- Listar los medicamentos que tenga un precio de venta mayor a 50000.
+ ### - Listar los medicamentos que tenga un precio de venta mayor a 50000.
 
   
 ![Captura de pantalla 2023-10-15 220405](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/8ccb838e-2729-46ec-b569-ed1078b38354)
@@ -58,7 +58,7 @@
 <br>
 
 
-- Listar las mascotas que fueron atendidas por motivo de vacunacion en el primer trimestre del 2023
+ ### - Listar las mascotas que fueron atendidas por motivo de vacunacion en el primer trimestre del 2023
 
 
 ![Captura de pantalla 2023-10-15 232649](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/85d89796-6ca5-425c-8640-9c5837a3f9c1)
@@ -73,7 +73,7 @@
 <br>
 
 
-- Listar todas las mascotas agrupadas por especie.
+ ### - Listar todas las mascotas agrupadas por especie.
 
 ![Captura de pantalla 2023-10-16 092807](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/03e4e081-c8e1-4659-8439-9f1bfc80591a)
 
@@ -87,7 +87,7 @@
 <br>
 
 
-- Listar todos los movimientos de medicamentos y el valor total de cada movimiento.
+ ### - Listar todos los movimientos de medicamentos y el valor total de cada movimiento.
 
 
 ![Captura de pantalla 2023-10-16 114117](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/59511e05-7bee-40ad-bc00-2d7a7c94b97c)
@@ -99,9 +99,9 @@
 <br>
 
 
-- Listar las mascotas que fueron atendidas por un determinado veterinario.
+ ### - Listar las mascotas que fueron atendidas por un determinado veterinario.
   <br>
-    ### Le pido que me envie el nombre del veterinario que deseas consultar las mascotas que ha atentido
+   Le pido que me envie el nombre del veterinario que deseas consultar las mascotas que ha atentido
 
 ![Captura de pantalla 2023-10-16 134000](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/0ef17c73-4473-47dd-87e2-7fafb8aced58)
 
