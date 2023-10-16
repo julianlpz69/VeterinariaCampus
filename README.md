@@ -127,3 +127,15 @@
 ![Captura de pantalla 2023-10-16 135457](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/b5625f67-4809-478a-9201-0e67859c41d9)
 
 
+
+<br>
+<br>
+<br>
+
+
+ ### - Listar las mascotas y sus propietarios cuya raza sea Golden Retriver
+
+![Captura de pantalla 2023-10-16 143053](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/145944be-fab9-4f22-a4b5-f4225197b15c)
+![Captura de pantalla 2023-10-16 143026](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/3686caea-21ac-442d-a07d-92420d11b6f3)
+
+
