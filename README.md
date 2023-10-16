@@ -66,3 +66,16 @@
 
 ![Captura de pantalla 2023-10-15 232628](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/6a5dd456-c61a-48e8-8728-29c27cdc827d)
 
+
+
+<br>
+<br>
+<br>
+
+
+- Listar todas las mascotas agrupadas por especie.
+
+![Captura de pantalla 2023-10-16 092807](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/03e4e081-c8e1-4659-8439-9f1bfc80591a)
+
+
+![Captura de pantalla 2023-10-16 092736](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/8d880d3f-a6d3-4ce6-b7b6-644d58720b5d)
