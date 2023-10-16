@@ -94,6 +94,21 @@
 
 ![Captura de pantalla 2023-10-16 114100](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/3e7d0ae8-8e46-4b24-a320-645ccab6b23e)
 
+<br>
+<br>
+<br>
 
+
+- Listar las mascotas que fueron atendidas por un determinado veterinario.
+  <br>
+    # Le pido que me envie el nombre del veterinario que deseas consultar las mascotas que ha atentido
+
+![Captura de pantalla 2023-10-16 134000](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/0ef17c73-4473-47dd-87e2-7fafb8aced58)
+
+
+![Captura de pantalla 2023-10-16 134021](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/d9a5227b-f73f-4bd2-8989-c378e60cbcdb)
+
+
+![Captura de pantalla 2023-10-16 134007](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/4529af4e-1c44-4178-95fb-5f5d8e73f542)
 
 
