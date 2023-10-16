@@ -136,6 +136,23 @@
  ### - Listar las mascotas y sus propietarios cuya raza sea Golden Retriver
 
 ![Captura de pantalla 2023-10-16 143053](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/145944be-fab9-4f22-a4b5-f4225197b15c)
+
+
 ![Captura de pantalla 2023-10-16 143026](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/3686caea-21ac-442d-a07d-92420d11b6f3)
 
+
+
+<br>
+<br>
+<br>
+
+
+ ### - Listar la cantidad de mascotas que pertenecen a una raza a una raza. Nota: Se debe mostrar una lista de las razas y la cantidad de mascotas que pertenecen a la raza.
+
+![Captura de pantalla 2023-10-16 144358](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/8be88f67-5474-4423-93cc-2d73679246f8)
+
+
+![Captura de pantalla 2023-10-16 144332](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/1f1f7b5f-10e2-4f95-b166-cd149eff6d2b)
+
+ 
 
