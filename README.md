@@ -111,4 +111,19 @@
 
 ![Captura de pantalla 2023-10-16 134007](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/4529af4e-1c44-4178-95fb-5f5d8e73f542)
 
+<br>
+<br>
+<br>
+
+
+ ### - Listar los proveedores que me venden un determinado medicamento.
+  <br>
+   Le pido que me envie el nombre del medicamento que deseas consultar los proveedores que lo venden
+
+![Captura de pantalla 2023-10-16 135449](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/41cf7912-654a-448c-833c-d6a554e74c86)
+
+![Captura de pantalla 2023-10-16 135516](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/d52257d7-fb95-4d6f-a510-11392cfd16db)
+
+![Captura de pantalla 2023-10-16 135457](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/b5625f67-4809-478a-9201-0e67859c41d9)
+
 
