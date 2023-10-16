@@ -40,6 +40,19 @@
 
 ![Captura de pantalla 2023-10-15 215441](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/b3518bcd-4095-4ce0-aa3f-5f90873570a2)
 
+<br>
+<br>
+<br>
+
+
+- Listar los medicamentos que tenga un precio de venta mayor a 50000.
+
+  
+![Captura de pantalla 2023-10-15 220405](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/8ccb838e-2729-46ec-b569-ed1078b38354)
+
+
+![Captura de pantalla 2023-10-15 220340](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/0514f872-55d3-4c03-9a94-b4c0f0e9cd3a)
+
 
 
 
