@@ -14,3 +14,8 @@
 
 
 
+![Captura de pantalla 2023-10-15 194531](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/8717e570-a883-443a-a46d-d3e4fbe36530)
+
+![Captura de pantalla 2023-10-15 194612](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/6c948a20-50ab-487f-8a5e-373b3da60e06)
+
+
