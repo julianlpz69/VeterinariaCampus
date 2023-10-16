@@ -79,3 +79,21 @@
 
 
 ![Captura de pantalla 2023-10-16 092736](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/8d880d3f-a6d3-4ce6-b7b6-644d58720b5d)
+
+
+
+<br>
+<br>
+<br>
+
+
+- Listar todos los movimientos de medicamentos y el valor total de cada movimiento.
+
+
+![Captura de pantalla 2023-10-16 114117](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/59511e05-7bee-40ad-bc00-2d7a7c94b97c)
+
+![Captura de pantalla 2023-10-16 114100](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/3e7d0ae8-8e46-4b24-a320-645ccab6b23e)
+
+
+
+
