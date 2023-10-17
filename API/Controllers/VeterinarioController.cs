@@ -7,12 +7,14 @@ using API.Helpers;
 using AutoMapper;
 using Domain.Entities;
 using Domain.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-     [ApiVersion("1.0")]
+    [ApiVersion("1.0")]
     [ApiVersion("1.1")]
+    [Authorize]
     public class VeterinarioController : BaseApiController
     {
       private IUnitOfWork unitofwork;
@@ -23,7 +25,7 @@ namespace API.Controllers
             this.unitofwork = unitOfWork;
             this.mapper = Mapper;
         }
-
+         
         [HttpGet]
         [MapToApiVersion("1.1")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -48,6 +50,7 @@ namespace API.Controllers
 
           [HttpPost]
           [MapToApiVersion("1.1")]
+          [Authorize(Roles = "Administrador")]
           [ProducesResponseType(StatusCodes.Status201Created)]
           [ProducesResponseType(StatusCodes.Status400BadRequest)]
           public async Task<ActionResult<Veterinario>> Post([FromBody]VeterinarioDto VeterinarioDto)
@@ -67,6 +70,7 @@ namespace API.Controllers
 
         [HttpPut("{id}")]
         [MapToApiVersion("1.1")]
+        [Authorize(Roles = "Administrador")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -84,6 +88,7 @@ namespace API.Controllers
 
         [HttpDelete("{id}")]
         [MapToApiVersion("1.1")]
+        [Authorize(Roles = "Administrador")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
