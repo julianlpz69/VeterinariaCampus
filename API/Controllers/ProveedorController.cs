@@ -11,6 +11,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
+    [ApiVersion("1.0")]
+    [ApiVersion("1.1")]
     public class ProveedorController : BaseApiController
     {
         
@@ -36,6 +38,7 @@ namespace API.Controllers
         }
 
         [HttpGet("{id}")]
+        [MapToApiVersion("1.1")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<ProveedorDto>> Get(int id)
@@ -46,6 +49,7 @@ namespace API.Controllers
 
 
           [HttpPost]
+          [MapToApiVersion("1.1")]
           [ProducesResponseType(StatusCodes.Status201Created)]
           [ProducesResponseType(StatusCodes.Status400BadRequest)]
           public async Task<ActionResult<Proveedor>> Post([FromBody]ProveedorDto ProveedorDto)
@@ -64,6 +68,7 @@ namespace API.Controllers
 
 
         [HttpPut("{id}")]
+        [MapToApiVersion("1.1")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -80,6 +85,7 @@ namespace API.Controllers
 
 
         [HttpDelete("{id}")]
+        [MapToApiVersion("1.1")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
@@ -96,6 +102,7 @@ namespace API.Controllers
 
 
         [HttpGet("Medicamento")]
+        [MapToApiVersion("1.1")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<IEnumerable<ProveedorMedicamentosDto>>> GetVeterinario(string nombre)

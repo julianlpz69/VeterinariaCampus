@@ -47,69 +47,69 @@ namespace ApiPassport.Extensions
 
 
 
-            public static void AddJwt(this IServiceCollection services, IConfiguration configuration)
-    {
-        services.Configure<JWT>(configuration.GetSection("JWT"));
-
-        services.AddAuthentication(options =>
+        public static void AddJwt(this IServiceCollection services, IConfiguration configuration)
         {
-            options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-            options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-        })
-            .AddJwtBearer(o =>
+            services.Configure<JWT>(configuration.GetSection("JWT"));
+
+            services.AddAuthentication(options =>
             {
-                o.RequireHttpsMetadata = false;
-                o.SaveToken = false;
-                o.TokenValidationParameters = new TokenValidationParameters
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+                .AddJwtBearer(o =>
                 {
-                    ValidateIssuerSigningKey = true,
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidateLifetime = true,
-                    ClockSkew = TimeSpan.Zero,
-                    ValidIssuer = configuration["JWT:Issuer"],
-                    ValidAudience = configuration["JWT:Audience"],
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Key"]))
-                };
-            });
-    }
-
-
-
-    public static void ConfigureRatelimiting(this IServiceCollection services)
-            {
-                services.AddMemoryCache();
-                services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
-                services.AddInMemoryRateLimiting();
-                services.Configure<IpRateLimitOptions>(options =>
-                {   
-                    options.QuotaExceededMessage="¡Se superó la cuota de llamadas API! máximo admitido 10 por Minuto";
-                    options.EnableEndpointRateLimiting = true;
-                    options.StackBlockedRequests = false;
-                    options.HttpStatusCode = 429;
-                    options.RealIpHeader = "X-Real-IP";
-                    options.GeneralRules = new List<RateLimitRule>
+                    o.RequireHttpsMetadata = false;
+                    o.SaveToken = false;
+                    o.TokenValidationParameters = new TokenValidationParameters
                     {
-                        new RateLimitRule
-                        {
-                            Endpoint = "*",
-                            Period = "60s",
-                            Limit = 10
-                        }
+                        ValidateIssuerSigningKey = true,
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ClockSkew = TimeSpan.Zero,
+                        ValidIssuer = configuration["JWT:Issuer"],
+                        ValidAudience = configuration["JWT:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Key"]))
                     };
                 });
-            }
+        }
 
 
-            public static void ConfigureApiVersioning(this IServiceCollection Services){
 
-                Services.AddApiVersioning(options =>{
-                    options.DefaultApiVersion = new ApiVersion(1,0);
-                    options.AssumeDefaultVersionWhenUnspecified = true;
-                    options.ApiVersionReader = ApiVersionReader.Combine(
-                        new QueryStringApiVersionReader("Q-Version"),
-                        new HeaderApiVersionReader("H-Version")
-                    );
+        public static void ConfigureRatelimiting(this IServiceCollection services)
+        {
+            services.AddMemoryCache();
+            services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
+            services.AddInMemoryRateLimiting();
+            services.Configure<IpRateLimitOptions>(options =>
+            {   
+                options.QuotaExceededMessage="¡Se superó la cuota de llamadas API! máximo admitido 10 por Minuto";
+                options.EnableEndpointRateLimiting = true;
+                options.StackBlockedRequests = false;
+                options.HttpStatusCode = 429;
+                options.RealIpHeader = "X-Real-IP";
+                options.GeneralRules = new List<RateLimitRule>
+                {
+                    new RateLimitRule
+                    {
+                        Endpoint = "*",
+                        Period = "60s",
+                        Limit = 10
+                    }
+                };
+            });
+        }
+
+
+        public static void ConfigureApiVersioning(this IServiceCollection Services){
+
+            Services.AddApiVersioning(options =>{
+                options.DefaultApiVersion = new ApiVersion(1,0);
+                options.AssumeDefaultVersionWhenUnspecified = true;
+                options.ApiVersionReader = ApiVersionReader.Combine(
+                    new QueryStringApiVersionReader("Q-Version"),
+                    new HeaderApiVersionReader("H-Version")
+                );
             });
         }
         

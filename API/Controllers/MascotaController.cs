@@ -13,6 +13,7 @@ namespace API.Controllers
 {
     [ApiVersion("1.0")]
     [ApiVersion("1.1")]
+    
     public class MascotaController : BaseApiController
     {
         private IUnitOfWork unitofwork;
@@ -37,6 +38,7 @@ namespace API.Controllers
 
 
         [HttpGet("{id}")]
+        [MapToApiVersion("1.1")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<MascotaDto>> Get(int id)
@@ -47,6 +49,7 @@ namespace API.Controllers
 
 
           [HttpPost]
+          [MapToApiVersion("1.1")]
           [ProducesResponseType(StatusCodes.Status201Created)]
           [ProducesResponseType(StatusCodes.Status400BadRequest)]
           public async Task<ActionResult<Mascota>> Post([FromBody]MascotaDto MascotaDto)
@@ -65,6 +68,7 @@ namespace API.Controllers
 
 
         [HttpPut("{id}")]
+        [MapToApiVersion("1.1")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -81,6 +85,7 @@ namespace API.Controllers
 
 
         [HttpDelete("{id}")]
+        [MapToApiVersion("1.1")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
@@ -151,6 +156,7 @@ namespace API.Controllers
 
 
         [HttpGet("Razas")]
+        [MapToApiVersion("1.1")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<IEnumerable<Object>>> GetRazas()
