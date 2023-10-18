@@ -1,6 +1,8 @@
 ## Consultas
 
  ### - Crear un consulta que permita visualizar los veterinarios cuya especialidad sea Cirujano vascular.
+<br>
+Ruta : http://localhost:5143/api/veterinario/Especialidad
 
 ![Captura de pantalla 2023-10-15 191751](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/7c39a3b1-4b4d-4b80-8c85-0edf3cc3f909)
 
@@ -11,7 +13,8 @@
 
 
  ### - Listar los medicamentos que pertenezcan a el laboratorio Genfar
-
+<br>
+Ruta : http://localhost:5143/api/medicamento/genfar
 
 
 ![Captura de pantalla 2023-10-15 194531](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/8717e570-a883-443a-a46d-d3e4fbe36530)
@@ -23,6 +26,9 @@
 
 
  ###  Mostrar las mascotas que se encuentren registradas cuya especie sea felina.
+<br>
+Ruta : http://localhost:5143/api/mascota/felino
+ 
 
 ![Captura de pantalla 2023-10-15 201040](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/5286a7c6-c07f-40f8-852e-4bb0cc5b742c)
 
@@ -34,6 +40,8 @@
 
 
  ### - Listar los propietarios y sus mascotas.
+ <br>
+Ruta : http://localhost:5143/api/cliente/pet
 
 ![Captura de pantalla 2023-10-15 215459](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/44c631b2-35c4-404c-a99f-e5116df20576)
 
@@ -46,7 +54,8 @@
 
 
  ### - Listar los medicamentos que tenga un precio de venta mayor a 50000.
-
+ <br>
+Ruta : http://localhost:5143/api/medicamento/Caro
   
 ![Captura de pantalla 2023-10-15 220405](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/8ccb838e-2729-46ec-b569-ed1078b38354)
 
@@ -59,7 +68,8 @@
 
 
  ### - Listar las mascotas que fueron atendidas por motivo de vacunacion en el primer trimestre del 2023
-
+ <br>
+Ruta : http://localhost:5143/api/mascota/vacuna
 
 ![Captura de pantalla 2023-10-15 232649](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/85d89796-6ca5-425c-8640-9c5837a3f9c1)
 
@@ -74,6 +84,8 @@
 
 
  ### - Listar todas las mascotas agrupadas por especie.
+  <br>
+Ruta : http://localhost:5143/api/especie/especie-mascota
 
 ![Captura de pantalla 2023-10-16 092807](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/03e4e081-c8e1-4659-8439-9f1bfc80591a)
 
@@ -88,7 +100,8 @@
 
 
  ### - Listar todos los movimientos de medicamentos y el valor total de cada movimiento.
-
+ <br>
+Ruta : http://localhost:5143/api/medicamento/movimientos
 
 ![Captura de pantalla 2023-10-16 114117](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/59511e05-7bee-40ad-bc00-2d7a7c94b97c)
 
@@ -100,8 +113,14 @@
 
 
  ### - Listar las mascotas que fueron atendidas por un determinado veterinario.
-  <br>
+ <br>
    Le pido que me envie el nombre del veterinario que deseas consultar las mascotas que ha atentido
+
+<br>
+Ruta : http://localhost:5143/api/mascota/Veterinario?nombre=Dr. Johnson     ------ Tienes que saber los nombres de los veterinarios que hay en la base de datos
+<br>
+<br>
+ 
 
 ![Captura de pantalla 2023-10-16 134000](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/0ef17c73-4473-47dd-87e2-7fafb8aced58)
 
@@ -117,8 +136,12 @@
 
 
  ### - Listar los proveedores que me venden un determinado medicamento.
-  <br>
+ <br>
    Le pido que me envie el nombre del medicamento que deseas consultar los proveedores que lo venden
+<br>
+Ruta : http://localhost:5143/api/proveedor/Medicamento?nombre=Ibuprofeno     ------ Tienes que saber los nombres de los medicamentos que hay en la base de datos
+<br>
+<br>
 
 ![Captura de pantalla 2023-10-16 135449](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/41cf7912-654a-448c-833c-d6a554e74c86)
 
@@ -135,6 +158,9 @@
 
  ### - Listar las mascotas y sus propietarios cuya raza sea Golden Retriver
 
+<br>
+Ruta : http://localhost:5143/api/mascota/Retriever 
+
 ![Captura de pantalla 2023-10-16 143053](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/145944be-fab9-4f22-a4b5-f4225197b15c)
 
 
@@ -148,6 +174,9 @@
 
 
  ### - Listar la cantidad de mascotas que pertenecen a una raza a una raza. Nota: Se debe mostrar una lista de las razas y la cantidad de mascotas que pertenecen a la raza.
+
+<br>
+Ruta : http://localhost:5143/api/mascota/razas 
 
 ![Captura de pantalla 2023-10-16 144358](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/8be88f67-5474-4423-93cc-2d73679246f8)
 
