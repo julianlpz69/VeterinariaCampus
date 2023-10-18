@@ -11,6 +11,6 @@ namespace API.Dtos
         public int Id {get; set;}
         public string NombreMascota {get; set;}
         public DateOnly FechaNacimiento {get; set;}
-        public EspecieDto Especies {get; set;}
+        public string Especie {get; set;}
     }
 }

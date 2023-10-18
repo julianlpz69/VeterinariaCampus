@@ -12,7 +12,16 @@ namespace Persistence.Data.Configuration
     
             builder.Property(u => u.NombreServicio)
                 .HasMaxLength(50);
-    
+
+
+
+            builder.HasData(
+                new TipoServicio{Id = 1, NombreServicio = "Operacion"},
+                new TipoServicio{Id = 2, NombreServicio = "Bañado"},
+                new TipoServicio{Id = 3, NombreServicio = "Vacunacion"},
+                new TipoServicio{Id = 4, NombreServicio = "Desparasitación"},
+                new TipoServicio{Id = 5, NombreServicio = "Examen General"}
+            );    
         }
     }
 }

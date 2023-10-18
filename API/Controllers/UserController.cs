@@ -30,7 +30,7 @@ namespace API.Controllers
         return Ok(result);
     } 
 
-     [MapToApiVersion("1.1")]
+   
     [HttpPost("token")]
     public async Task<IActionResult> GetTokenAsync(LoginDto model)
     {

@@ -48,7 +48,8 @@ namespace API.Profiles
              
 
             CreateMap<Mascota,MascotaPetDto>().ReverseMap();
-            CreateMap<Mascota,MascotaEspecieDto>().ReverseMap();
+            CreateMap<Mascota,MascotaEspecieDto>()
+            .ForMember(d => d.Especie, l => l.MapFrom(src => src.Raza.Especie.NombreEspecie));
 
             CreateMap<Raza,RazaDto>().ReverseMap();
             CreateMap<Raza,RazaMascotaDto>().ReverseMap();

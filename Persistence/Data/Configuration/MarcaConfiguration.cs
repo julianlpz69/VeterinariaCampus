@@ -13,9 +13,15 @@ namespace Persistence.Data.Configuration
             builder.Property(e => e.NombreMarca)
                 .HasMaxLength(50);
 
+            builder.HasData(
+                new Marca{Id = 1, NombreMarca = "Serave"},
+                new Marca{Id = 2, NombreMarca = "Pficer"},
+                new Marca{Id = 3, NombreMarca = "DrogasMax"},
+                new Marca{Id = 4, NombreMarca = "Salud Total"},
+                new Marca{Id = 5, NombreMarca = "Genfar"}
+            );
+        
 
-            
-    
         }
     }
 }
