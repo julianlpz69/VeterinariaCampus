@@ -120,7 +120,7 @@ Ruta : http://localhost:5143/api/medicamento/movimientos
 Ruta : http://localhost:5143/api/mascota/Veterinario?nombre=Dr. Johnson     ------ Tienes que saber los nombres de los veterinarios que hay en la base de datos
 <br>
 <br>
-   Le pido que me envie el nombre del veterinario que deseas consultar las mascotas que ha atentido
+ 
 
 ![Captura de pantalla 2023-10-16 134000](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/0ef17c73-4473-47dd-87e2-7fafb8aced58)
 
