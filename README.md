@@ -136,8 +136,12 @@ Ruta : http://localhost:5143/api/mascota/Veterinario?nombre=Dr. Johnson     ----
 
 
  ### - Listar los proveedores que me venden un determinado medicamento.
-  <br>
+ <br>
    Le pido que me envie el nombre del medicamento que deseas consultar los proveedores que lo venden
+<br>
+Ruta : http://localhost:5143/api/proveedor/Medicamento?nombre=Ibuprofeno     ------ Tienes que saber los nombres de los medicamentos que hay en la base de datos
+<br>
+<br>
 
 ![Captura de pantalla 2023-10-16 135449](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/41cf7912-654a-448c-833c-d6a554e74c86)
 
@@ -154,6 +158,9 @@ Ruta : http://localhost:5143/api/mascota/Veterinario?nombre=Dr. Johnson     ----
 
  ### - Listar las mascotas y sus propietarios cuya raza sea Golden Retriver
 
+<br>
+Ruta : http://localhost:5143/api/mascota/Retriever 
+
 ![Captura de pantalla 2023-10-16 143053](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/145944be-fab9-4f22-a4b5-f4225197b15c)
 
 
@@ -167,6 +174,9 @@ Ruta : http://localhost:5143/api/mascota/Veterinario?nombre=Dr. Johnson     ----
 
 
  ### - Listar la cantidad de mascotas que pertenecen a una raza a una raza. Nota: Se debe mostrar una lista de las razas y la cantidad de mascotas que pertenecen a la raza.
+
+<br>
+Ruta : http://localhost:5143/api/mascota/razas 
 
 ![Captura de pantalla 2023-10-16 144358](https://github.com/julianlpz69/VeterinariaCampus/assets/131847060/8be88f67-5474-4423-93cc-2d73679246f8)
 
